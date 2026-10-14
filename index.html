@@ -1,0 +1,283 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eng Tasneem Tanashat</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Header and Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">Tasneem<span>.</span></a>
+
+            <button id="menu-button" class="menu-button"
+                aria-label="Toggle navigation" aria-expanded="false">
+                ☰
+            </button>
+
+            <div class="nav-links" id="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#hobbies">Hobbies</a>
+                <a href="#contact">Contact</a>
+
+                <button id="theme-button" class="theme-button"
+                    aria-pressed="false">
+                    ☾ Change Theme
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Home -->
+        <section class="hero" id="home">
+            <div class="hero-text">
+                <p class="small-title">HELLO, WELCOME TO MY WORLD</p>
+
+                <h1>I'm <span>Eng. Tasneem Tanashat</span></h1>
+
+                <h2>Computer Engineer & Junior QA Engineer</h2>
+
+                <p>
+                    I enjoy testing software, finding bugs, and making
+                    applications work better. I love learning new skills
+                    and building creative projects.
+                </p>
+
+                <a href="#projects" class="button">Explore My Work</a>
+            </div>
+
+            <div class="profile">
+                <img
+                    src="assets/profile.jpg"
+                    alt="Tasneem Tanashat"
+                    onerror="this.style.display='none';
+                    document.getElementById('photo-placeholder').style.display='flex';">
+
+                <div id="photo-placeholder" class="photo-placeholder">
+                    My Photo ♡
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me -->
+        <section class="section about" id="about">
+            <p class="small-title">GET TO KNOW ME</p>
+            <h2 class="section-title">About Me</h2>
+
+            <p class="description">
+                I am a Computer Engineering graduate from Jordan University
+                of Science and Technology. I am interested in Software
+                Quality Assurance, especially manual testing and test
+                automation. I enjoy finding problems, paying attention
+                to details, and helping create a better user experience.
+            </p>
+        </section>
+
+        <!-- Skills -->
+        <section class="section" id="skills">
+            <p class="small-title">WHAT I HAVE LEARNED</p>
+            <h2 class="section-title">My Skills</h2>
+
+            <div class="skills-grid">
+                <article class="card">
+                    <span class="card-icon">♡</span>
+                    <h3>Manual Testing</h3>
+                    <p>Test cases, bug reports, regression and exploratory testing.</p>
+                </article>
+
+                <article class="card">
+                    <span class="card-icon">✿</span>
+                    <h3>Automation Testing</h3>
+                    <p>Selenium WebDriver, Java, TestNG and Maven basics.</p>
+                </article>
+
+                <article class="card">
+                    <span class="card-icon">◇</span>
+                    <h3>API Testing</h3>
+                    <p>Postman, CRUD requests, status codes and JSON responses.</p>
+                </article>
+
+                <article class="card">
+                    <span class="card-icon">⌘</span>
+                    <h3>Database Testing</h3>
+                    <p>SQL queries and checking application data.</p>
+                </article>
+
+                <article class="card">
+                    <span class="card-icon">☁</span>
+                    <h3>Mobile Testing</h3>
+                    <p>Appium basics and Android application testing.</p>
+                </article>
+
+                <article class="card">
+                    <span class="card-icon">✧</span>
+                    <h3>Web Development</h3>
+                    <p>HTML, CSS, JavaScript and responsive design.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section projects" id="projects">
+            <p class="small-title">MY LEARNING JOURNEY</p>
+            <h2 class="section-title">My Projects</h2>
+
+            <div class="projects-grid">
+                <article class="card project-card">
+                    <p class="project-label">PROJECT 00</p>
+                    <h3>Linux, Git & GitHub</h3>
+                    <p>
+                        Practiced terminal commands, file organization,
+                        Git and GitHub workflows.
+                    </p>
+                  <a href="https://github.com/TasneemTanashat/Project-00-Linux-Git-GitHub" 
+                           target="_blank" rel="noopener noreferrer"> View on GitHub </a>
+                </article>
+
+                <article class="card project-card">
+                    <p class="project-label">PROJECT 01</p>
+                    <h3>HTML Fundamentals</h3>
+                    <p>
+                        Created web pages using headings, images, links,
+                        lists, tables and forms.
+                    </p>
+ <a href="https://github.com/TasneemTanashat/Project-01-HTML-Fundamentals"
+                           target="_blank" rel="noopener noreferrer"> View on GitHub </a>
+                </article>
+
+                <article class="card project-card">
+                    <p class="project-label">PROJECT 02</p>
+                    <h3>CSS & Visual Design</h3>
+                    <p>
+                        Practiced colors, the box model, Flexbox,
+                        positioning and responsive layouts.
+                    </p>
+<a href="https://github.com/TasneemTanashat/Project-02-CSS-Visual-Presentation"
+                           target="_blank" rel="noopener noreferrer"> View on GitHub </a>
+                </article>
+
+                <article class="card project-card">
+                    <p class="project-label">PROJECT 03</p>
+                    <h3>JavaScript & Interactivity</h3>
+                    <p>
+                        Practiced variables, functions, DOM manipulation,
+                        events and interactive page features.
+                    </p>
+<a href="https://github.com/TasneemTanashat/Project-03-JavaScript-Interactivity"
+                           target="_blank" rel="noopener noreferrer"> View on GitHub </a>
+                </article>
+
+                <article class="card project-card">
+                    <p class="project-label">QA PROJECT</p>
+                    <h3>Web Automation Testing</h3>
+                    <p>
+                        Practiced browser automation using Selenium,
+                        Java and TestNG.
+                    </p>
+<a href="https://github.com/TasneemTanashat/codenbox-website-testing"
+                           target="_blank" rel="noopener noreferrer"> View on GitHub </a>
+                </article>
+
+                <article class="card project-card">
+                    <p class="project-label">QA PROJECT</p>
+                    <h3>API Testing with Postman</h3>
+                    <p>
+                        Tested API requests and checked response status
+                        codes and data.
+                    </p>
+<a href="https://github.com/TasneemTanashat/BookStore-API-Testing"
+                           target="_blank" rel="noopener noreferrer"> View on GitHub </a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Hobbies -->
+        <section class="section" id="hobbies">
+            <p class="small-title">THINGS I LOVE</p>
+            <h2 class="section-title">My Hobbies</h2>
+
+            <div class="hobbies-list">
+                <span>♡ Learning new things</span>
+                <span>✿ Creative design</span>
+                <span>♡ Exploring technology</span>
+                <span>✿ Solving problems</span>
+                <span>♡ UI/UX inspiration</span>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section contact" id="contact">
+            <p class="small-title">LET'S CONNECT</p>
+            <h2 class="section-title">Contact Me</h2>
+
+            <p class="description">
+                Have a question or want to connect? Send me a message!
+            </p>
+
+            <form id="contact-form">
+                <label for="name">Your Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your name"
+                    required>
+
+                <label for="email">Your Email</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required>
+
+                <label for="message">Your Message</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    placeholder="Write your message..."
+                    required></textarea>
+
+                <button type="submit" class="button">
+                    Prepare Email
+                </button>
+
+                <p id="form-status" aria-live="polite"></p>
+            </form>
+
+            <p class="github&/LinkedIn-links">
+                Find me on
+                <a href="https://github.com/TasneemTanashat"
+                   target="_blank" rel="noopener noreferrer">GitHub</a>
+                 |           
+                <a href="https://www.linkedin.com/in/tasneem-tanashat/"
+                   target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            © <span id="year"></span> Eng Tasneem Tanashat.
+            Made with love 🌸
+        </p>
+        <a href="#home">Back to Top ↑</a>
+    </footer>
+
+</body>
+</html>
